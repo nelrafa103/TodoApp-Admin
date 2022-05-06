@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_buttons_redirect_buttons",
+  "info": {
+    "displayName": "Redirect_Button",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "url": {
+      "type": "json"
+    },
+    "state": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

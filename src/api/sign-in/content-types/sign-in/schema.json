@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_ins",
+  "info": {
+    "singularName": "sign-in",
+    "pluralName": "sign-ins",
+    "displayName": "SignIn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "side_mage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LogIn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schemas.auth-schema"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

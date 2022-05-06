@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "introductions",
+  "info": {
+    "singularName": "introduction",
+    "pluralName": "introductions",
+    "displayName": "Introduction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Features": {
+      "type": "json"
+    }
+  }
+}

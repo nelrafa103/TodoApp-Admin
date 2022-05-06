@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_schemas_auth_schemas",
+  "info": {
+    "displayName": "Auth_Schema",
+    "icon": "user-lock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "email_title": {
+      "type": "string"
+    },
+    "password_title": {
+      "type": "string"
+    }
+  }
+}

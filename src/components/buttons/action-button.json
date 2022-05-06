@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_buttons_action_buttons",
+  "info": {
+    "displayName": "Action_Button",
+    "icon": "play",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "url": {
+      "type": "json"
+    },
+    "state": {
+      "type": "boolean"
+    }
+  }
+}
